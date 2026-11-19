@@ -1,0 +1,10 @@
+CREATE TABLE CLIENTES_LOJA (
+    id_cliente INT PRIMARY KEY,
+    nome_cliente VARCHAR(100),
+    total_gasto DECIMAL(10,2)
+);
+
+INSERT INTO CLIENTES_LOJA VALUES (1, 'Isabela Piazza', 5500.00); 
+INSERT INTO CLIENTES_LOJA VALUES (2, 'Rodrigo Melo', 1800.00);   
+INSERT INTO CLIENTES_LOJA VALUES (3, 'Beatriz Santos', 450.00);  
+INSERT INTO CLIENTES_LOJA VALUES (4, 'Gabriel Almeida', 3200.00);
